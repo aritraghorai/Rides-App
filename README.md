@@ -1,13 +1,9 @@
-# Getting Started with Create React App
+# Rides App Build Using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo Of The App
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
+<img src='./Demo/D1.png' ><img/>
+<img src='./Demo/D2.png' ><img/>
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
