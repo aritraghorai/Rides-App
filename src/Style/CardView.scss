@@ -1,0 +1,60 @@
+.card {
+  display: grid;
+  color: #ffff;
+  //   justify-content: space-between;
+  padding: 20px 3px;
+  margin: 10px 16px;
+  grid-auto-flow: column;
+  background: #171717;
+  grid-template-columns: 27% 25vw auto;
+  border-radius: 10px;
+  margin-left: 13px;
+  margin-right: 25px;
+  .location-pic {
+    margin-left: 15px;
+    img {
+      height: 140px;
+      width: 270px;
+      border-radius: 5px;
+    }
+  }
+}
+p {
+  color: #d0cbcb;
+  display: inline;
+}
+.details {
+  margin-left: -30%;
+  display: grid;
+  div {
+    display: block;
+  }
+}
+.location-details {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: end;
+  .cityName,
+  .state-name {
+    padding: 0px 5px;
+    background: rgba(0, 0, 0, 0.56);
+    border-radius: 16px;
+    height: 10px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .card {
+    grid-template-columns: 38% 25vw auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    grid-template-columns: 30% 25vw auto;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .card {
+    grid-template-columns: 25% 25vw auto;
+  }
+}

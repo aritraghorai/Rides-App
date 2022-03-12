@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background: #101010;
+  padding: 13px;
+  .brandLogo {
+    margin-left: 10px;
+    font-family: "SF Pro Display";
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .UserName {
+      margin-right: 15px;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .userLogo {
+      margin-right: 20px;
+      img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
